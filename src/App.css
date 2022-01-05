@@ -1,0 +1,32 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(20, 20, 20);
+  min-height: 100%;
+}
+
+.topBar{
+  height: 65px;
+}
+
+.main {
+  display: flex;
+  height: 100%;
+}
+
+.menu{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 60%;
+}
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  width: 40%;
+  height: 100%;
+  background-color: rgb(36, 36, 36);
+  margin-right: 5px;
+}
